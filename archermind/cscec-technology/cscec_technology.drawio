@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T11:34:25.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="mMGTS-Ku6SfinqDd6jb5" version="20.3.3" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-09-23T02:21:44.464Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="sOHYc8_eWaUrkvIy2mIy" version="20.3.5" type="github" pages="7">
   <diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">
-    <mxGraphModel dx="1422" dy="706" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -508,6 +508,71 @@
             <mxPoint x="515" y="179.70000000000005" as="sourcePoint" />
             <mxPoint x="112" y="241.5" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="49LHTfjXNW1L9ALCSWeV" name="项目工程清单与项目模型关联">
+    <mxGraphModel dx="1422" dy="762" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="290" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-2" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/actionable_insight.svg;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="156.5" y="551" width="57" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="90" width="290" height="532" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-3" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=#ffffff;fontSize=12;spacingTop=3;image;image=img/lib/ibm/applications/application_logic.svg;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="532" y="549.5" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-5" value="&lt;b&gt;算量插件系统&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="95" y="110" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hzc-VNlzktzZ9dfbU4g6-6" target="Hzc-VNlzktzZ9dfbU4g6-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-6" value="项目算量（工程量信息清单）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="101" y="314.5" width="151" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-7" value="&lt;b&gt;BIM平台数据引擎&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="469" y="102" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hzc-VNlzktzZ9dfbU4g6-8" target="Hzc-VNlzktzZ9dfbU4g6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-8" value="数据计算规则（标准模型与清单的对应关系）" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="492" y="184" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-9" value="数据校验" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="444" y="480" width="88" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-10" value="审计日志" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="599" y="473" width="87" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hzc-VNlzktzZ9dfbU4g6-13" target="Hzc-VNlzktzZ9dfbU4g6-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-13" value="数据引擎工程量导入接口" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="444" y="311" width="68" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hzc-VNlzktzZ9dfbU4g6-14" target="Hzc-VNlzktzZ9dfbU4g6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Hzc-VNlzktzZ9dfbU4g6-14" target="Hzc-VNlzktzZ9dfbU4g6-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-14" value="计算规则" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="528" y="311" width="68" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Hzc-VNlzktzZ9dfbU4g6-15" target="Hzc-VNlzktzZ9dfbU4g6-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Hzc-VNlzktzZ9dfbU4g6-15" value="项目清单工程量与模型构建关联" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="618" y="311" width="68" height="118" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
